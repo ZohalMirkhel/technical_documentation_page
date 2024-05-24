@@ -10,3 +10,41 @@ body {
   display: flex; 
   flex-wrap: wrap; 
 }
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+nav {
+  background-color: #555;
+  color: #fff;
+  padding: 20px;
+  height: calc(100vh - 40px);
+  width: calc(33.33% - 40px);
+  margin: 20px;
+  position: fixed;
+  min-width: 290px;
+  top: 0;
+  left: 0;
+  border-right: 1px solid rgba(0, 22, 22, 0.4);
+  z-index: 100;
+  overflow-y: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
