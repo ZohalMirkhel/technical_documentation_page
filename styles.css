@@ -39,7 +39,7 @@ nav {
   overflow-y: auto;
   margin: 10px;
   margin-right: 20px;
-  background-color: #333;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 nav ul {
@@ -131,43 +131,57 @@ code {
 }
 
 .Introduction:hover {
-  background-image: url("https://cff2.earth.com/uploads/2023/11/02172105/black-hole_supermassive_1medium.jpg");
+  background-image: url("https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3NwYWNlLXNtZWxsLTIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoiMTIwMCJ9fX0=");
   background-size: cover;
   padding: 15px 10px;
+  background-position: center;
+  font-weight: bold;
 }
 
 .What_you_should_already_know:hover {
-  background-image: url("https://cff2.earth.com/uploads/2023/11/02172105/black-hole_supermassive_1medium.jpg");
+  background-image: url("https://t3.ftcdn.net/jpg/06/33/00/42/360_F_633004264_b6ZuRQZYAsZIEYfWdY15EAOiaG4ZJIbn.jpg");
   background-size: cover;
   padding: 15px 10px;
+  background-position: center;
+  font-weight: bold;
 }
 
 .Space_and_Astronomy:hover {
-  background-image: url("https://cff2.earth.com/uploads/2023/11/02172105/black-hole_supermassive_1medium.jpg");
+  background-image: url("https://as1.ftcdn.net/v2/jpg/05/69/72/02/1000_F_569720222_dJpxQUgNAcebo3KbhmE7lKMOUvleKBjP.jpg");
   background-size: cover;
   padding: 15px 10px;
+  background-position: center;
+  font-weight: bold;
 }
 
 .The_Universe:hover {
-  background-image: url("https://cff2.earth.com/uploads/2023/11/02172105/black-hole_supermassive_1medium.jpg");
+  background-image: url("https://dhjhkxawhe8q4.cloudfront.net/yup-wp/wp-content/uploads/2022/01/27150044/greg-rakozy-38802-unsplash.jpg");
   background-size: cover;
   padding: 15px 10px;
+  background-position: center;
+  font-weight: bold;
 }
 
 .Stars:hover {
-  background-image: url("https://cff2.earth.com/uploads/2023/11/02172105/black-hole_supermassive_1medium.jpg");
+  background-image: url("https://cdn.britannica.com/07/186507-138-CCAD17CA/Overview-types-stars-red-dwarf-giant-supergiant.jpg?w=800&h=450&c=crop");
   background-size: cover;
   padding: 15px 10px;
+  background-position: center;
+  font-weight: bold;
 }
 
 .Black_Holes:hover {
   background-image: url("https://cff2.earth.com/uploads/2023/11/02172105/black-hole_supermassive_1medium.jpg");
   background-size: cover;
   padding: 15px 10px;
+  background-position: center;
+  font-weight: bold;
 }
 
 .Galaxies:hover {
-  background-image: url("https://cff2.earth.com/uploads/2023/11/02172105/black-hole_supermassive_1medium.jpg");
+  background-image: url("https://www.sierraclub.org/sites/default/files/styles/sierra_full_page_width/public/slideshows/SIERRA-2-M031%20-%20hallas%20%282008%29%20copy-WB.jpg.webp?itok=Qq2sxSve");
   background-size: cover;
   padding: 15px 10px;
+  background-position: center;
+  font-weight: bold;
 }
