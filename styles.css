@@ -1,10 +1,16 @@
 body {
-  font-family: Arial, sans-serif;
+  background-image: url('https://as2.ftcdn.net/v2/jpg/05/59/13/39/1000_F_559133954_0kKDwhaWzU2ltOH4ylCkP1B4f7N6XkPD.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  font-family:
+    Arial,
+    sans-serif;
   color: #333;
   display: flex;
+  font-weight: 200;
 }
 
 header {
@@ -20,13 +26,12 @@ header {
 }
 
 nav {
-  background-color: #555;
   color: #fff;
   padding: 20px;
   width: 300px;
   height: calc(100vh - 20px);
   position: fixed;
-  top: 10px;
+  top: 50px;
   left: 10px;
   border-right: 1px solid rgba(0, 22, 22, 0.4);
   border-radius: 10px;
@@ -34,6 +39,7 @@ nav {
   overflow-y: auto;
   margin: 10px;
   margin-right: 20px;
+  background-color: #333;
 }
 
 nav ul {
@@ -54,24 +60,37 @@ nav ul li {
   transition: background-color 0.3s ease;
 }
 
-.nav-link:hover {
-  background-color: #444;
-}
-
 main {
-  margin-left: 330px;
+  margin-left: 370px;
   padding: 20px;
-  width: calc(100% - 350px);
+  width: 70%;
   margin-top: 60px;
   box-sizing: border-box;
+  border-radius: 15px;
+  background-color: #fff;
 }
 
 .main-section {
   background-color: #fff;
   padding: 20px;
-  border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-left: 40px;
+}
+
+article {
+  padding: 0;
+}
+
+h1 {
+  width: 100%;
+  height: 100px;
+  font-size: 2em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 blockquote {
@@ -109,4 +128,46 @@ code {
     padding: 10px;
     margin: 10px;
   }
+}
+
+.Introduction:hover {
+  background-image: url("https://cff2.earth.com/uploads/2023/11/02172105/black-hole_supermassive_1medium.jpg");
+  background-size: cover;
+  padding: 15px 10px;
+}
+
+.What_you_should_already_know:hover {
+  background-image: url("https://cff2.earth.com/uploads/2023/11/02172105/black-hole_supermassive_1medium.jpg");
+  background-size: cover;
+  padding: 15px 10px;
+}
+
+.Space_and_Astronomy:hover {
+  background-image: url("https://cff2.earth.com/uploads/2023/11/02172105/black-hole_supermassive_1medium.jpg");
+  background-size: cover;
+  padding: 15px 10px;
+}
+
+.The_Universe:hover {
+  background-image: url("https://cff2.earth.com/uploads/2023/11/02172105/black-hole_supermassive_1medium.jpg");
+  background-size: cover;
+  padding: 15px 10px;
+}
+
+.Stars:hover {
+  background-image: url("https://cff2.earth.com/uploads/2023/11/02172105/black-hole_supermassive_1medium.jpg");
+  background-size: cover;
+  padding: 15px 10px;
+}
+
+.Black_Holes:hover {
+  background-image: url("https://cff2.earth.com/uploads/2023/11/02172105/black-hole_supermassive_1medium.jpg");
+  background-size: cover;
+  padding: 15px 10px;
+}
+
+.Galaxies:hover {
+  background-image: url("https://cff2.earth.com/uploads/2023/11/02172105/black-hole_supermassive_1medium.jpg");
+  background-size: cover;
+  padding: 15px 10px;
 }
