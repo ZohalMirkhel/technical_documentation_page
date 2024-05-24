@@ -163,6 +163,15 @@ h1 {
   border-radius: 15px;
 }
 
+.section-heading-8 {
+  background-image: url("https://media1.giphy.com/media/TZf4ZyXb0lXXi/200w.gif?cid=6c09b9528qdlhyql4doev7bvpl5hki8nseebx36ehpe5bz62&ep=v1_gifs_search&rid=200w.gif&ct=g");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  border-radius: 15px;
+}
+
 blockquote {
   font-style: italic;
   margin: 20px 0;
@@ -260,6 +269,15 @@ code {
 
 .Galaxies:hover {
   background-image: url("https://www.sierraclub.org/sites/default/files/styles/sierra_full_page_width/public/slideshows/SIERRA-2-M031%20-%20hallas%20%282008%29%20copy-WB.jpg.webp?itok=Qq2sxSve");
+  background-size: cover;
+  opacity: 0.7;
+  padding: 25px 20px;
+  background-position: center;
+  font-weight: bold;
+}
+
+.References:hover {
+  background-image: url("https://cdn.pixabay.com/photo/2019/12/07/10/06/asteroid-4679027_1280.jpg");
   background-size: cover;
   opacity: 0.7;
   padding: 25px 20px;
