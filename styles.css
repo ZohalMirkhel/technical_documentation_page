@@ -14,8 +14,9 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
+  height: 50px;
   padding: 10px;
   text-align: center;
   width: 100%;
@@ -23,6 +24,9 @@ header {
   top: 0;
   left: 0;
   z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 nav {
@@ -31,7 +35,7 @@ nav {
   width: 300px;
   height: calc(100vh - 20px);
   position: fixed;
-  top: 50px;
+  top: 90px;
   left: 10px;
   border-right: 1px solid rgba(0, 22, 22, 0.4);
   border-radius: 10px;
@@ -64,17 +68,20 @@ main {
   margin-left: 370px;
   padding: 20px;
   width: 70%;
-  margin-top: 60px;
+  margin-top: 100px;
   box-sizing: border-box;
-  border-radius: 15px;
-  background-color: #fff;
+  border-radius: 15px;  
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.main-section {
-  background-color: #fff;
+.main-section {  
+  background-color: rgba(255, 255, 255, 0.3);
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-left: 40px;
+  color: white;
+  border-radius: 15px;
+  margin-bottom: 10px;
 }
 
 article {
@@ -99,6 +106,7 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  border-radius: 15px;
 }
 
 .section-heading-2 {
@@ -107,6 +115,7 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  border-radius: 15px;
 }
 
 .section-heading-3 {
@@ -115,6 +124,7 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  border-radius: 15px;
 }
 
 .section-heading-4 {
@@ -123,6 +133,7 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  border-radius: 15px;
 }
 
 .section-heading-5 {
@@ -131,6 +142,7 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   color: black;
+  border-radius: 15px;
 }
 
 .section-heading-6 {
@@ -139,6 +151,7 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  border-radius: 15px;
 }
 
 .section-heading-7 {
@@ -147,22 +160,27 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   color: black;
+  border-radius: 15px;
 }
 
 blockquote {
   font-style: italic;
   margin: 20px 0;
   padding: 10px;
-  background-color: #f9f9f9;
+  background-color: rgba(255, 255, 255, 0.3);
   border-left: 5px solid #ccc;
   border-radius: 5px;
 }
 
 code {
-  font-family: 'Courier New', Courier, monospace;
-  background-color: #f9f9f9;
+  font-family:
+    'Courier New',
+    Courier,
+    monospace;
+  background-color: rgba(255, 255, 255, 0.3);
   padding: 5px;
   border-radius: 3px;
+  display: block;
 }
 
 @media (max-width: 768px) {
@@ -189,7 +207,8 @@ code {
 .Introduction:hover {
   background-image: url("https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3NwYWNlLXNtZWxsLTIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoiMTIwMCJ9fX0=");
   background-size: cover;
-  padding: 15px 10px;
+  opacity: 0.7;
+  padding: 25px 20px;
   background-position: center;
   font-weight: bold;
 }
@@ -197,7 +216,8 @@ code {
 .What_you_should_already_know:hover {
   background-image: url("https://t3.ftcdn.net/jpg/06/33/00/42/360_F_633004264_b6ZuRQZYAsZIEYfWdY15EAOiaG4ZJIbn.jpg");
   background-size: cover;
-  padding: 15px 10px;
+  opacity: 0.7;
+  padding: 25px 20px;
   background-position: center;
   font-weight: bold;
 }
@@ -205,7 +225,8 @@ code {
 .Space_and_Astronomy:hover {
   background-image: url("https://as1.ftcdn.net/v2/jpg/05/69/72/02/1000_F_569720222_dJpxQUgNAcebo3KbhmE7lKMOUvleKBjP.jpg");
   background-size: cover;
-  padding: 15px 10px;
+  opacity: 0.7;
+  padding: 25px 20px;
   background-position: center;
   font-weight: bold;
 }
@@ -213,7 +234,8 @@ code {
 .The_Universe:hover {
   background-image: url("https://dhjhkxawhe8q4.cloudfront.net/yup-wp/wp-content/uploads/2022/01/27150044/greg-rakozy-38802-unsplash.jpg");
   background-size: cover;
-  padding: 15px 10px;
+  opacity: 0.7;
+  padding: 25px 20px;
   background-position: center;
   font-weight: bold;
 }
@@ -221,7 +243,8 @@ code {
 .Stars:hover {
   background-image: url("https://cdn.britannica.com/07/186507-138-CCAD17CA/Overview-types-stars-red-dwarf-giant-supergiant.jpg?w=800&h=450&c=crop");
   background-size: cover;
-  padding: 15px 10px;
+  opacity: 0.7;
+  padding: 25px 20px;
   background-position: center;
   font-weight: bold;
 }
@@ -229,7 +252,8 @@ code {
 .Black_Holes:hover {
   background-image: url("https://cff2.earth.com/uploads/2023/11/02172105/black-hole_supermassive_1medium.jpg");
   background-size: cover;
-  padding: 15px 10px;
+  opacity: 0.7;
+  padding: 25px 20px;
   background-position: center;
   font-weight: bold;
 }
@@ -237,7 +261,8 @@ code {
 .Galaxies:hover {
   background-image: url("https://www.sierraclub.org/sites/default/files/styles/sierra_full_page_width/public/slideshows/SIERRA-2-M031%20-%20hallas%20%282008%29%20copy-WB.jpg.webp?itok=Qq2sxSve");
   background-size: cover;
-  padding: 15px 10px;
+  opacity: 0.7;
+  padding: 25px 20px;
   background-position: center;
   font-weight: bold;
 }
