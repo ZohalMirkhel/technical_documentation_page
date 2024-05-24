@@ -3,471 +3,258 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technical Documentation Page</title>
+    <title>Technical Documentation Page - Space Edition</title>
 </head>
 <body>
-    <body>
-        <nav id="navbar">
-          <header>JS Documentation</header>
-          <ul>
+    <nav id="navbar">
+        <header>Space Documentation</header>
+        <ul>
             <li><a class="nav-link" href="#Introduction">Introduction</a></li>
-            <li>
-              <a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
-            </li>
-            <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
-            <li><a class="nav-link" href="#Variables">Variables</a></li>
-            <li>
-              <a class="nav-link" href="#Declaring_variables">Declaring variables</a>
-            </li>
-            <li><a class="nav-link" href="#Variable_scope">Variable scope</a></li>
-            <li>
-              <a class="nav-link" href="#Global_variables">Global variables</a>
-            </li>
-            <li><a class="nav-link" href="#Constants">Constants</a></li>
-            <li><a class="nav-link" href="#Data_types">Data types</a></li>
-            <li>
-              <a class="nav-link" href="#if_else_statement">if...else statement</a>
-            </li>
-            <li><a class="nav-link" href="#while_statement">while statement</a></li>
-            <li>
-              <a class="nav-link" href="#Function_declarations">Function declarations</a>
-            </li>
-            <li><a class="nav-link" href="#Reference">Reference</a></li>
-          </ul>
-        </nav>
-        <main id="main-doc">
-          <section class="main-section" id="Introduction">
+            <li><a class="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
+            <li><a class="nav-link" href="#Space_and_Astronomy">Space and Astronomy</a></li>
+            <li><a class="nav-link" href="#The_Universe">The Universe</a></li>
+            <li><a class="nav-link" href="#Stars">Stars</a></li>
+            <li><a class="nav-link" href="#Black_Holes">Black Holes</a></li>
+            <li><a class="nav-link" href="#Galaxies">Galaxies</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
             <header>Introduction</header>
             <article>
-              <p>
-                JavaScript is a cross-platform, object-oriented scripting language.
-                It is a small and lightweight language. Inside a host environment
-                (for example, a web browser), JavaScript can be connected to the
-                objects of its environment to provide programmatic control over
-                them.
-              </p>
-    
-              <p>
-                JavaScript contains a standard library of objects, such as Array,
-                Date, and Math, and a core set of language elements such as
-                operators, control structures, and statements. Core JavaScript can
-                be extended for a variety of purposes by supplementing it with
-                additional objects; for example:
-              </p>
-              <ul>
-                <li>
-                  Client-side JavaScript extends the core language by supplying
-                  objects to control a browser and its Document Object Model (DOM).
-                  For example, client-side extensions allow an application to place
-                  elements on an HTML form and respond to user events such as mouse
-                  clicks, form input, and page navigation.
-                </li>
-                <li>
-                  Server-side JavaScript extends the core language by supplying
-                  objects relevant to running JavaScript on a server. For example,
-                  server-side extensions allow an application to communicate with a
-                  database, provide continuity of information from one invocation to
-                  another of the application, or perform file manipulations on a
-                  server.
-                </li>
-              </ul>
+                <p>
+                    Space, the final frontier, is a vast expanse that exists beyond the Earth's atmosphere. It encompasses everything in the universe beyond our planet, including stars, planets, galaxies, and the voids in between. Space exploration has always been a human endeavor driven by curiosity and the desire to understand our place in the universe. From the ancient astronomers who first mapped the stars to the modern space agencies launching missions to other planets, our exploration of space has been marked by significant milestones and discoveries.
+                </p>
+                <p>
+                    The study of space not only satisfies our innate curiosity but also provides critical information that can help solve practical problems on Earth. For example, satellites orbiting the Earth monitor weather patterns, assist in navigation, and provide communication links. The technology developed for space exploration has led to numerous advancements in other fields, including medicine, engineering, and environmental science.
+                </p>
+                <p>
+                    Over the centuries, our understanding of space has grown exponentially. Ancient civilizations used the stars for navigation and to develop calendars. With the invention of the telescope, our view of the universe expanded dramatically. Galileo's observations of the moons of Jupiter provided evidence for the heliocentric model of the solar system. Newton's laws of motion and gravity explained the orbits of planets and laid the foundation for modern physics.
+                </p>
+                <p>
+                    In the 20th century, space exploration took a giant leap with the launch of artificial satellites and human spaceflight. The Soviet Union's Sputnik 1, launched in 1957, was the first artificial satellite to orbit the Earth. This was followed by Yuri Gagarin's historic flight in 1961, making him the first human in space. The United States' Apollo program achieved the first manned moon landing in 1969, with Neil Armstrong and Buzz Aldrin walking on the lunar surface.
+                </p>
+                <p>
+                    Today, space exploration is a global endeavor, with multiple countries and private companies participating. The International Space Station (ISS) serves as a symbol of international cooperation and a hub for scientific research in space. Missions to Mars, the study of asteroids, and the search for extraterrestrial life are just a few of the exciting frontiers in space exploration. The potential for future exploration includes human missions to Mars, mining asteroids for resources, and even the possibility of interstellar travel.
+                </p>
+                <ul>
+                    <li>Understanding the basic structure of the universe</li>
+                    <li>The importance of space exploration</li>
+                    <li>Historical milestones in space exploration</li>
+                    <li>Technological advancements from space research</li>
+                    <li>The impact of space exploration on Earth</li>
+                </ul>
+                <blockquote>
+                    "The important achievement of Apollo was demonstrating that humanity is not forever chained to this planet and our visions go rather further than that and our opportunities are unlimited." - Neil Armstrong
+                </blockquote>
+                <code>Space: The final frontier.</code>
             </article>
-          </section>
-          <section class="main-section" id="What_you_should_already_know">
+        </section>
+        <section class="main-section" id="What_you_should_already_know">
             <header>What you should already know</header>
             <article>
-              <p>This guide assumes you have the following basic background:</p>
-    
-              <ul>
-                <li>
-                  A general understanding of the Internet and the World Wide Web
-                  (WWW).
-                </li>
-                <li>Good working knowledge of HyperText Markup Language (HTML).</li>
-                <li>
-                  Some programming experience. If you are new to programming, try
-                  one of the tutorials linked on the main page about JavaScript.
-                </li>
-              </ul>
-            </article>
-          </section>
-          <section class="main-section" id="JavaScript_and_Java">
-            <header>JavaScript and Java</header>
-            <article>
-              <p>
-                JavaScript and Java are similar in some ways but fundamentally
-                different in some others. The JavaScript language resembles Java but
-                does not have Java's static typing and strong type checking.
-                JavaScript follows most Java expression syntax, naming conventions
-                and basic control-flow constructs which was the reason why it was
-                renamed from LiveScript to JavaScript.
-              </p>
-    
-              <p>
-                In contrast to Java's compile-time system of classes built by
-                declarations, JavaScript supports a runtime system based on a small
-                number of data types representing numeric, Boolean, and string
-                values. JavaScript has a prototype-based object model instead of the
-                more common class-based object model. The prototype-based model
-                provides dynamic inheritance; that is, what is inherited can vary
-                for individual objects. JavaScript also supports functions without
-                any special declarative requirements. Functions can be properties of
-                objects, executing as loosely typed methods.
-              </p>
-              <p>
-                JavaScript is a very free-form language compared to Java. You do not
-                have to declare all variables, classes, and methods. You do not have
-                to be concerned with whether methods are public, private, or
-                protected, and you do not have to implement interfaces. Variables,
-                parameters, and function return types are not explicitly typed.
-              </p>
-            </article>
-          </section>
-          <section class="main-section" id="Hello_world">
-            <header>Hello world</header>
-            <article>
-              To get started with writing JavaScript, open the Scratchpad and write
-              your first "Hello world" JavaScript code:
-              <code>
-                function greetMe(yourName) { alert("Hello " + yourName); }
-                greetMe("World");
-              </code>
-    
-              Select the code in the pad and hit Ctrl+R to watch it unfold in your
-              browser!
-            </article>
-          </section>
-          <section class="main-section" id="Variables">
-            <header>Variables</header>
-            <p>
-              You use variables as symbolic names for values in your application.
-              The names of variables, called identifiers, conform to certain rules.
-            </p>
-            <p>
-              A JavaScript identifier must start with a letter, underscore (_), or
-              dollar sign ($); subsequent characters can also be digits (0-9).
-              Because JavaScript is case sensitive, letters include the characters
-              "A" through "Z" (uppercase) and the characters "a" through "z"
-              (lowercase).
-            </p>
-            <p>
-              You can use ISO 8859-1 or Unicode letters such as å and ü in
-              identifiers. You can also use the Unicode escape sequences as
-              characters in identifiers. Some examples of legal names are
-              Number_hits, temp99, and _name.
-            </p>
-          </section>
-          <section class="main-section" id="Declaring_variables">
-            <header>Declaring variables</header>
-            <article>
-              You can declare a variable in three ways:
-              <p>
-                With the keyword var. For example, <code>var x = 42.</code> This
-                syntax can be used to declare both local and global variables.
-              </p>
-              <p>
-                By simply assigning it a value. For example,
-                <code>
-                    x = 42.
-                </code> 
-                This always declares a global variable. It
-                generates a strict JavaScript warning. You shouldn't use this
-                variant.
-              </p>
-              <p>
-                With the keyword let. For example,<code> let y = 13.</code> This
-                syntax can be used to declare a block scope local variable. See
-                Variable scope below.
-              </p>
-            </article>
-          </section>
-          <section class="main-section" id="Variable_scope">
-            <header>Variable scope</header>
-            <article>
-              <p>
-                When you declare a variable outside of any function, it is called a
-                global variable, because it is available to any other code in the
-                current document. When you declare a variable within a function, it
-                is called a local variable, because it is available only within that
-                function.
-              </p>
-    
-              <p>
-                JavaScript before ECMAScript 2015 does not have block statement
-                scope; rather, a variable declared within a block is local to the
-                function (or global scope) that the block resides within. For
-                example the following code will log 5, because the scope of x is the
-                function (or global context) within which x is declared, not the
-                block, which in this case is an if statement.
-              </p>
-              <code>
-                if (true) { var x = 5; } console.log(x); // 5
-              </code>
-              <p>
-                This behavior changes, when using the let declaration introduced in
-                ECMAScript 2015.
-              </p>
-    
-              <code>
-                if (true) { let y = 5; } console.log(y); // ReferenceError: y is
-                not defined
-              </code>
-            </article>
-          </section>
-          <section class="main-section" id="Global_variables">
-            <header>Global variables</header>
-            <article>
-              <p>
-                Global variables are in fact properties of the global object. In web
-                pages the global object is window, so you can set and access global
-                variables using the window.variable syntax.
-              </p>
-    
-              <p>
-                Consequently, you can access global variables declared in one window
-                or frame from another window or frame by specifying the window or
-                frame name. For example, if a variable called phoneNumber is
-                declared in a document, you can refer to this variable from an
-                iframe as parent.phoneNumber.
-              </p>
-            </article>
-          </section>
-          <section class="main-section" id="Constants">
-            <header>Constants</header>
-            <article>
-              <p>
-                You can create a read-only, named constant with the const keyword.
-                The syntax of a constant identifier is the same as for a variable
-                identifier: it must start with a letter, underscore or dollar sign
-                and can contain alphabetic, numeric, or underscore characters.
-              </p>
-    
-              <code>
-                const PI = 3.14;
-              </code>
-              <p>
-                A constant cannot change value through assignment or be re-declared
-                while the script is running. It has to be initialized to a value.
-              </p>
-    
-              <p>
-                The scope rules for constants are the same as those for let block
-                scope variables. If the const keyword is omitted, the identifier is
-                assumed to represent a variable.
-              </p>
-    
-              <p>
-                You cannot declare a constant with the same name as a function or
-                variable in the same scope. For example:
-              </p>
-    
-              <code>
-                // THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS
-                WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
-                //statements }
-              </code>
-              However, object attributes are not protected, so the following
-              statement is executed without problems.
-              <code>
-                const MY_OBJECT = {"key": "value"}; MY_OBJECT.key =
-                "otherValue";
-              </code>
-            </article>
-          </section>
-          <section class="main-section" id="Data_types">
-            <header>Data types</header>
-            <article>
-              <p>The latest ECMAScript standard defines seven data types:</p>
-              <ul>
-                <li>
-                  <p>Six data types that are primitives:</p>
-                  <ul>
-                    <li>Boolean. true and false.</li>
-                    <li>
-                      null. A special keyword denoting a null value. Because
-                      JavaScript is case-sensitive, null is not the same as Null,
-                      NULL, or any other variant.
-                    </li>
-                    <li>
-                      undefined. A top-level property whose value is undefined.
-                    </li>
-                    <li>Number. 42 or 3.14159.</li>
-                    <li>String. "Howdy"</li>
-                    <li>
-                      Symbol (new in ECMAScript 2015). A data type whose instances
-                      are unique and immutable.
-                    </li>
-                  </ul>
-                </li>
-    
-                <li>and Object</li>
-              </ul>
-              Although these data types are a relatively small amount, they enable
-              you to perform useful functions with your applications. Objects and
-              functions are the other fundamental elements in the language. You can
-              think of objects as named containers for values, and functions as
-              procedures that your application can perform.
-            </article>
-          </section>
-          <section class="main-section" id="if_else_statement">
-            <header>if...else statement</header>
-            <article>
-              Use the if statement to execute a statement if a logical condition is
-              true. Use the optional else clause to execute a statement if the
-              condition is false. An if statement looks as follows:
-    
-              <code>
-                if (condition) { statement_1; } else { statement_2; }
-              </code>
-              condition can be any expression that evaluates to true or false. See
-              Boolean for an explanation of what evaluates to true and false. If
-              condition evaluates to true, statement_1 is executed; otherwise,
-              statement_2 is executed. statement_1 and statement_2 can be any
-              statement, including further nested if statements.
-              <p>
-                You may also compound the statements using else if to have multiple
-                conditions tested in sequence, as follows:
-              </p>
-              <code
-                >if (condition_1) { statement_1; } else if (condition_2) {
-                statement_2; } else if (condition_n) { statement_n; } else {
-                statement_last; }
-              </code>
-              In the case of multiple conditions only the first logical condition
-              which evaluates to true will be executed. To execute multiple
-              statements, group them within a block statement ({ ... }) . In
-              general, it's good practice to always use block statements, especially
-              when nesting if statements:
-    
-              <code>
-                if (condition) { statement_1_runs_if_condition_is_true;
-                statement_2_runs_if_condition_is_true; } else {
-                statement_3_runs_if_condition_is_false;
-                statement_4_runs_if_condition_is_false; }
-              </code>
-              It is advisable to not use simple assignments in a conditional
-              expression, because the assignment can be confused with equality when
-              glancing over the code. For example, do not use the following code:
-              
-              <code>
-                if (x = y) { /* statements here */ }
-              </code> 
-              If you need to use
-              an assignment in a conditional expression, a common practice is to put
-              additional parentheses around the assignment. For example:
-    
-              <code>
-                if ((x = y)) { /* statements here */ }
-              </code>
-            </article>
-          </section>
-          <section class="main-section" id="while_statement">
-            <header>while statement</header>
-            <article>
-              A while statement executes its statements as long as a specified
-              condition evaluates to true. A while statement looks as follows:
-    
-              <code>
-                while (condition) statement
-              </code> If the condition becomes
-              false, statement within the loop stops executing and control passes to
-              the statement following the loop.
-    
-              <p>
-                The condition test occurs before statement in the loop is executed.
-                If the condition returns true, statement is executed and the
-                condition is tested again. If the condition returns false, execution
-                stops and control is passed to the statement following while.
-              </p>
-    
-              <p>
-                To execute multiple statements, use a block statement ({ ... }) to
-                group those statements.
-              </p>
-    
-              Example:
-    
-              <p>
-                The following while loop iterates as long as n is less than three:
-              </p>
-    
-              <code>
-                var n = 0; var x = 0; while (n &lt; 3) { n++; x += n; }
-              </code>
-              <p>
-                With each iteration, the loop increments n and adds that value to x.
-                Therefore, x and n take on the following values:
-              </p>
-    
+                <p>This guide assumes you have the following basic background:</p>
                 <ul>
-                    <li>After the first pass: n = 1 and x = 1</li>
-                    <li>After the second pass: n = 2 and x = 3</li>
-                    <li>After the third pass: n = 3 and x = 6</li>
+                    <li>A general understanding of the structure of the universe and its major components, such as stars, planets, and galaxies.</li>
+                    <li>Basic knowledge of astronomy and the study of celestial objects, including the use of telescopes and the observation of night skies.</li>
+                    <li>Familiarity with fundamental physics concepts that apply to space, such as gravity, light, and the electromagnetic spectrum.</li>
+                    <li>An understanding of the historical context of space exploration</li>
+                    <li>An awareness of the major space agencies and their missions</li>
                 </ul>
-              <p>
-                After completing the third pass, the condition n &lt; 3 is no longer
-                true, so the loop terminates.
-              </p>
+                <p>
+                    Before delving into the depths of space exploration, it is crucial to have a foundational understanding of several key concepts. The universe is a vast expanse that includes everything that exists, from the smallest particles to the largest galaxies. It is structured in a hierarchy, starting from solar systems, which are part of galaxies, which in turn are components of galaxy clusters and superclusters, forming the large-scale structure of the universe.
+                </p>
+                <p>
+                    Astronomy is the scientific study of celestial objects and phenomena beyond Earth's atmosphere. It has a rich history that dates back to ancient civilizations. The Babylonians, Egyptians, Greeks, and Chinese made significant contributions to early astronomy. They developed calendars based on the cycles of the moon and the sun, and they identified and named numerous stars and constellations. The invention of the telescope in the 17th century revolutionized astronomy, allowing scientists to observe celestial objects in greater detail.
+                </p>
+                <p>
+                    Physics provides the fundamental principles that govern the behavior of objects in space. Gravity is the force that attracts objects with mass toward one another, and it is responsible for the orbits of planets around stars and moons around planets. Light, or electromagnetic radiation, is the primary way we receive information from distant celestial objects. Understanding the properties of light, such as its speed, wavelength, and energy, is essential for interpreting astronomical observations.
+                </p>
+                <p>
+                    The historical context of space exploration is also important. The Space Age began in the mid-20th century, marked by the launch of Sputnik 1 in 1957. The subsequent space race between the United States and the Soviet Union led to rapid advancements in space technology and culminated in the Apollo moon landings. Since then, space exploration has expanded to include robotic missions to other planets, the construction of the International Space Station, and the development of commercial spaceflight.
+                </p>
+                <p>
+                    Major space agencies like NASA (National Aeronautics and Space Administration), ESA (European Space Agency), Roscosmos (Russian Federal Space Agency), and CNSA (China National Space Administration) play crucial roles in space exploration. These agencies conduct scientific research, launch space missions, and collaborate on international projects. Private companies, such as SpaceX, Blue Origin, and Virgin Galactic, are also becoming significant players in the space industry, aiming to make space travel more accessible and affordable.
+                </p>
+                <blockquote>
+                    "To confine our attention to terrestrial matters would be to limit the human spirit." - Stephen Hawking
+                </blockquote>
+                <code>Astronomy: The study of celestial objects.</code>
             </article>
-          </section>
-          <section class="main-section" id="Function_declarations">
-            <header>Function declarations</header>
+        </section>
+        <section class="main-section" id="Space_and_Astronomy">
+            <header>Space and Astronomy</header>
             <article>
-              A function definition (also called a function declaration, or function
-              statement) consists of the function keyword, followed by:
-    
-              <ul>
-                <li>The name of the function.</li>
-                <li>
-                  A list of arguments to the function, enclosed in parentheses and
-                  separated by commas.
-                </li>
-                <li>
-                  The JavaScript statements that define the function, enclosed in
-                  curly brackets, { }.
-                </li>
-              </ul>
-              <p>
-                For example, the following code defines a simple function named
-                square:
-              </p>
-    
-              <code>
-                function square(number) { return number * number; }
-              </code>
-              <p>
-                The function square takes one argument, called number. The function
-                consists of one statement that says to return the argument of the
-                function (that is, number) multiplied by itself. The return
-                statement specifies the value returned by the function.
-              </p>
-              <code>
-                return number * number;
-              </code>
-              <p>
-                Primitive parameters (such as a number) are passed to functions by
-                value; the value is passed to the function, but if the function
-                changes the value of the parameter, this change is not reflected
-                globally or in the calling function.
-              </p>
+                <p>
+                    Astronomy is the study of celestial objects, space, and the universe as a whole. It involves observing and understanding phenomena outside the Earth's atmosphere, from planets and stars to galaxies and beyond. Ancient civilizations used astronomy to develop calendars, navigate oceans, and predict celestial events. Today, modern astronomers use a variety of tools, including ground-based telescopes and space telescopes, to gather data and explore the cosmos.
+                </p>
+                <p>
+                    Modern astronomy relies heavily on advanced technology, including telescopes, satellites, and space probes, to collect data and images from distant parts of the universe. These tools help astronomers analyze the composition, behavior, and origins of celestial bodies. The field of astronomy is divided into several sub-disciplines, such as planetary science, which focuses on the study of planets and their moons; astrophysics, which deals with the physical properties and processes of celestial objects; and cosmology, which explores the origins and evolution of the universe itself.
+                </p>
+                <p>
+                    The history of astronomy dates back thousands of years. Ancient cultures, including the Babylonians, Egyptians, Greeks, and Chinese, made significant contributions to early astronomical knowledge. They tracked the movements of celestial bodies, developed calendars, and constructed observatories. The invention of the telescope by Galileo Galilei in the early 17th century revolutionized astronomy by allowing for detailed observations of the moon, planets, and stars. This period marked the beginning of modern astronomy, characterized by systematic observation and the development of theories to explain celestial phenomena.
+                </p>
+                <p>
+                    The study of space and astronomy has profound implications for our understanding of the universe and our place in it. It provides insights into the origins of the universe, the formation of stars and planets, and the potential for life beyond Earth. Discoveries such as the cosmic microwave background radiation, the expansion of the universe, and the existence of exoplanets have reshaped our view of the cosmos and sparked new questions about the nature of reality.
+                </p>
+                <p>
+                    Astronomy is a constantly evolving field, driven by new discoveries and technological advancements. The development of powerful telescopes, such as the Hubble Space Telescope and the upcoming James Webb Space Telescope, allows astronomers to peer deeper into the universe and observe phenomena that were previously beyond our reach. Space missions, such as the Voyager probes, the Mars rovers, and the New Horizons mission to Pluto, have provided unprecedented data about our solar system and beyond.
+                </p>
+                <ul>
+                    <li>The history of astronomy</li>
+                    <li>Tools and techniques in modern astronomy</li>
+                    <li>Sub-disciplines within astronomy</li>
+                    <li>Key discoveries and their implications</li>
+                    <li>The future of space exploration and astronomy</li>
+                </ul>
+                <blockquote>
+                    "The cosmos is all that is, or ever was, or ever will be." - Carl Sagan
+                </blockquote>
+                <code>Cosmology: The study of the origins and evolution of the universe.</code>
             </article>
-          </section>
-          <section class="main-section" id="Reference">
-            <header>Reference</header>
+        </section>
+        <section class="main-section" id="The_Universe">
+            <header>The Universe</header>
             <article>
-              <ul>
-                <li>
-                  All the documentation in this page is taken from
-                  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
-                    target="_blank">MDN</a>
-                </li>
-              </ul>
+                <p>
+                    The universe is the vast, all-encompassing space that includes everything that exists: all matter, energy, planets, stars, galaxies, and even the very laws of physics themselves. It is believed to have begun with the Big Bang, a massive explosion that occurred approximately 13.8 billion years ago, marking the origin of time and space. Since then, the universe has been expanding and evolving, forming the complex structures we observe today.
+                </p>
+                <p>
+                    One of the fundamental concepts in cosmology, the study of the universe's origins and structure, is the Big Bang theory. This theory posits that the universe started as an extremely hot and dense point, which has been expanding ever since. Evidence supporting the Big Bang includes the cosmic microwave background radiation, which is the afterglow of the initial explosion, and the observed redshift of distant galaxies, indicating that they are moving away from us.
+                </p>
+                <p>
+                    The universe is composed of various forms of matter and energy. Ordinary matter, which makes up stars, planets, and living organisms, accounts for only about 5% of the universe's total mass and energy. The rest is made up of dark matter and dark energy. Dark matter, which interacts with ordinary matter through gravity but does not emit light, makes up about 27% of the universe. Dark energy, a mysterious force driving the accelerated expansion of the universe, accounts for roughly 68%.
+                </p>
+                <p>
+                    Galaxies are the building blocks of the universe. They are vast systems of stars, gas, dust, and dark matter, bound together by gravity. Our galaxy, the Milky Way, is a barred spiral galaxy containing billions of stars, including our Sun. Galaxies are not evenly distributed throughout the universe; they form clusters and superclusters separated by vast voids. Studying the distribution and movement of galaxies helps astronomers understand the large-scale structure and evolution of the universe.
+                </p>
+                <p>
+                    The fate of the universe is a topic of ongoing research and debate. Several scenarios have been proposed based on current observations and theories. One possibility is the Big Freeze, where the universe continues to expand and cool until stars burn out and galaxies drift apart. Another scenario is the Big Crunch, where gravitational forces eventually cause the universe to collapse back into a hot, dense state. The third possibility is the Big Rip, where the expansion of the universe accelerates to the point where galaxies, stars, and even atoms are torn apart.
+                </p>
+                <ul>
+                    <li>The Big Bang theory</li>
+                    <li>Composition of the universe: ordinary matter, dark matter, and dark energy</li>
+                    <li>The structure and distribution of galaxies</li>
+                    <li>The expansion and evolution of the universe</li>
+                    <li>Possible scenarios for the fate of the universe</li>
+                </ul>
+                <blockquote>
+                    "The most incomprehensible thing about the universe is that it is comprehensible." - Albert Einstein
+                </blockquote>
+                <code>Cosmic Microwave Background Radiation: The afterglow of the Big Bang.</code>
             </article>
-          </section>
-        </main>
-      </body>
+        </section>
+        <section class="main-section" id="Stars">
+            <header>Stars</header>
+            <article>
+                <p>
+                    Stars are luminous spheres of plasma held together by their own gravity. They are the primary building blocks of galaxies and play a crucial role in the dynamics and evolution of the universe. The nearest star to Earth is the Sun, which provides the energy necessary for life on our planet. Stars vary widely in size, mass, temperature, and brightness, and they can be classified into different types based on these properties.
+                </p>
+                <p>
+                    The life cycle of a star begins with the gravitational collapse of a region within a molecular cloud, composed mostly of hydrogen and helium. As the cloud collapses, it fragments into smaller clumps, each of which can form a star. The core of a forming star, called a protostar, heats up as it contracts. Once the temperature and pressure are sufficient, nuclear fusion reactions ignite, converting hydrogen into helium and releasing energy in the process. This marks the birth of a main-sequence star.
+                </p>
+                <p>
+                    Main-sequence stars, like our Sun, spend the majority of their lives fusing hydrogen into helium in their cores. The balance between the gravitational force pulling inward and the pressure from nuclear fusion pushing outward keeps the star stable. The mass of a star determines its temperature, luminosity, and lifespan. Massive stars are hotter, more luminous, and have shorter lifespans, while smaller stars are cooler, dimmer, and can live for billions of years.
+                </p>
+                <p>
+                    The end stages of a star's life depend on its mass. Low-mass stars, like the Sun, will eventually exhaust their hydrogen fuel and expand into red giants. They then shed their outer layers, creating planetary nebulae, while the core remains as a white dwarf, slowly cooling over time. Massive stars, on the other hand, undergo more dramatic changes. After burning through their nuclear fuel, they explode in supernovae, leaving behind either a neutron star or a black hole.
+                </p>
+                <p>
+                    The study of stars provides valuable insights into the processes that shape the universe. Stars are responsible for the synthesis of heavy elements through nuclear fusion, which are then dispersed into space by supernovae, enriching the interstellar medium and contributing to the formation of new stars and planetary systems. Understanding the life cycles of stars helps astronomers trace the history of galaxies and the evolution of the universe itself.
+                </p>
+                <ul>
+                    <li>The formation of stars</li>
+                    <li>Nuclear fusion in stars</li>
+                    <li>The life cycle of stars</li>
+                    <li>Types of stars: dwarf, giant, supergiant</li>
+                    <li>Stellar remnants: white dwarfs, neutron stars, and black holes</li>
+                </ul>
+                <blockquote>
+                    "We are all made of star-stuff." - Carl Sagan
+                </blockquote>
+                <pre class="code-snippet">
+<code>
+# Example of calculating luminosity of a star using Stefan-Boltzmann Law
+def luminosity(radius, temperature):
+    sigma = 5.670374419e-8 # Stefan-Boltzmann constant
+    return 4 * math.pi * radius**2 * sigma * temperature**4
+
+# Example values for the Sun
+radius_sun = 6.955e8 # in meters
+temperature_sun = 5778 # in Kelvin
+
+luminosity_sun = luminosity(radius_sun, temperature_sun)
+print(f"Sun's luminosity: {luminosity_sun} watts")
+</code>
+                </pre>
+            </article>
+        </section>
+        <section class="main-section" id="Black_Holes">
+            <header>Black Holes</header>
+            <article>
+                <p>
+                    Black holes are regions of spacetime where gravity is so strong that nothing, not even light, can escape from them. They are formed from the remnants of massive stars that have undergone gravitational collapse. Black holes are one of the most mysterious and fascinating objects in the universe. Their intense gravitational fields can warp spacetime and affect the paths of nearby matter and radiation.
+                </p>
+                <p>
+                    The study of black holes involves understanding their properties, such as event horizons, which mark the boundary beyond which nothing can escape; singularities, which are points of infinite density; and the effects they have on surrounding matter and light. Black holes can be detected by their interaction with nearby matter and the radiation they emit as they accrete material. They are also key to studying the limits of general relativity and quantum mechanics. Black holes are often found at the centers of galaxies, including our own Milky Way galaxy, where they play a crucial role in shaping galactic structure and evolution. These supermassive black holes can have masses millions or even billions of times that of the Sun and are thought to be responsible for powering active galactic nuclei and quasars.
+</p>
+<p>
+The formation of black holes occurs when massive stars exhaust their nuclear fuel and can no longer support themselves against gravitational collapse. This collapse compresses the stellar core into a point of infinite density, known as a singularity, surrounded by an event horizon, beyond which no information can escape. Black holes can also form through the merger of smaller black holes or the collapse of massive clouds of gas and dust.
+</p>
+<p>
+Black holes come in different sizes, ranging from stellar-mass black holes, which are a few times the mass of the Sun, to supermassive black holes, which are found in the centers of galaxies. Stellar-mass black holes are formed from the remnants of massive stars and are typically found in binary systems with other stars. Supermassive black holes are thought to grow over time through the accretion of surrounding matter and mergers with other black holes.
+</p>
+<p>
+Despite their name, black holes are not entirely black. They emit radiation known as Hawking radiation, predicted by physicist Stephen Hawking, which causes them to slowly lose mass over time. This process, however, is extremely slow for stellar-mass black holes and practically negligible for supermassive black holes. As a result, black holes are expected to persist for billions or even trillions of years, far longer than the current age of the universe.
+</p>
+<p>
+Black holes challenge our understanding of the fundamental laws of physics, including Einstein's theory of general relativity and the nature of space and time. They are also of great interest to astronomers because of their role in galaxy formation and evolution. Studying black holes provides valuable insights into the extreme conditions of the universe and the behavior of matter and energy under the influence of strong gravitational fields.
+</p>
+<ul>
+<li>The formation and properties of black holes</li>
+<li>Event horizons and singularities</li>
+<li>Hawking radiation and black hole evaporation</li>
+<li>Stellar-mass black holes vs. supermassive black holes</li>
+<li>The role of black holes in galactic structure and evolution</li>
+</ul>
+<blockquote>
+"The universe is full of magical things, patiently waiting for our wits to grow sharper." - Eden Phillpotts
+</blockquote>
+<code>Black Hole: A region of spacetime where gravity is so strong that nothing can escape.</code>
+</article>
+</section>
+<section class="main-section" id="Galaxies">
+<header>Galaxies</header>
+<article>
+<p>
+Galaxies are vast systems of stars, gas, dust, and dark matter bound together by gravity. They are the building blocks of the universe, containing billions or even trillions of stars, along with other celestial objects such as planets, star clusters, and nebulae. Galaxies come in various shapes and sizes, ranging from small irregular galaxies to massive elliptical galaxies, each with its own unique characteristics and history.
+</p>
+<p>
+The study of galaxies, known as galactic astronomy, aims to understand their formation, structure, and evolution over cosmic time. Galaxies are classified based on their morphology, or shape, which can range from spiral, elliptical, and irregular. Spiral galaxies, like the Milky Way, have a flat, rotating disk with spiral arms containing young stars and star-forming regions. Elliptical galaxies are more spheroidal in shape and contain mostly old stars and little interstellar gas.
+</p>
+<p>
+The formation and evolution of galaxies are intimately linked to the large-scale structure of the universe and the distribution of dark matter. Galaxies are not uniformly distributed throughout space but are instead found in clusters and groups, which themselves are arranged in filaments and voids. The gravitational interactions between galaxies can lead to mergers and collisions, triggering bursts of star formation and the formation of new structures.
+</p>
+<p>
+One of the most intriguing aspects of galaxies is the presence of supermassive black holes at their centers. These black holes, which can have masses millions or billions of times that of the Sun, play a crucial role in regulating the growth and activity of galaxies. They are thought to power active galactic nuclei (AGN) and quasars, which are among the most luminous objects in the universe. The study of AGN provides insights into the co-evolution of black holes and galaxies.
+</p>
+<p>
+Galaxies also serve as cosmic laboratories for studying fundamental astrophysical processes, such as star formation, stellar evolution, and galaxy interactions. By observing galaxies across different wavelengths of light, from radio waves to gamma rays, astronomers can probe their properties and dynamics in unprecedented detail. Advances in technology, such as large telescopes and space-based observatories, have revolutionized our understanding of galaxies and their role in the cosmic web.
+</p>
+<ul>
+<li>Classification and morphology of galaxies</li>
+<li>The large-scale structure of the universe</li>
+<li>Galaxy formation and evolution</li>
+<li>Supermassive black holes and active galactic nuclei</li>
+<li>The role of galaxies in cosmic evolution</li>
+</ul>
+<blockquote>
+"We are like butterflies who flutter for a day and think it is forever." - Carl Sagan
+</blockquote>
+<code>Galaxy: A vast system of stars, gas, and dust bound together by gravity.</code>
+</article>
+</section>
+</main>
+
 </body>
 </html>
