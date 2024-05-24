@@ -1,3 +1,9 @@
+:root {
+  --space-blue: #0f3057;
+  --space-purple: #512b58;
+  --space-pink: #b8377e;
+}
+
 body {
   background-image: url('https://as2.ftcdn.net/v2/jpg/05/59/13/39/1000_F_559133954_0kKDwhaWzU2ltOH4ylCkP1B4f7N6XkPD.jpg');
   background-size: cover;
@@ -283,4 +289,18 @@ code {
   padding: 25px 20px;
   background-position: center;
   font-weight: bold;
+}
+
+#References a {
+  color: var(--space-blue);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+#References a:hover {
+  color: var(--space-pink);
+}
+
+#References a:visited {
+  color: var(--space-purple);
 }
