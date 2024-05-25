@@ -206,6 +206,7 @@ code {
   body {
     flex-direction: column;
   }
+
   nav {
     width: 100%;
     height: auto;
@@ -216,6 +217,7 @@ code {
     border-radius: 0;
     border-right: none;
   }
+  
   main {
     margin-left: 0;
     width: 100%;
